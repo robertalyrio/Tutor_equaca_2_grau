@@ -455,5 +455,4 @@ def main(page: Page):
         # Atualizar a página
         page.update()
         
-if __name__ == "__main__":
-    flet.app(target=main, view=flet.WEB_BROWSER, port=8080)
+flet.app(target=main)
