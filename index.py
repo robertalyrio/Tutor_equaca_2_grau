@@ -376,7 +376,7 @@ def main(page: Page):
         page.clean()
 
         # Título e instruções do exercício
-        exercise_title = Text(value="Calcule as raízes da equação x² - 5x + 6", size=20, color='white')
+        exercise_title = Text(value="Calcule as raízes da equação x² - 5x + 6 = 0", size=20, color='white')
         instructions = Text(value="\nDetermine os coeficientes 'a', 'b' e 'c' da equação:", size=16, color='white')
 
         # Campos de entrada
